@@ -1,6 +1,6 @@
 import { FloatingParticles } from '@/components/ui/FloatingParticles';
 import { HeroSection } from '@/components/sections/HeroSection';
-import { GalleryGrid } from '@/components/sections/GalleryGrid';
+// import { GalleryGrid } from '@/components/sections/GalleryGrid';
 
 export default function BirthdayPage() {
   return (
