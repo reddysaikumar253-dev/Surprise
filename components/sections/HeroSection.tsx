@@ -21,6 +21,7 @@ export function HeroSection() {
           speed={70}
           startDelay={400}
           onComplete={() => setHeadingDone(true)}
+          showCursor={!headingDone}
         />
       </h1>
 
