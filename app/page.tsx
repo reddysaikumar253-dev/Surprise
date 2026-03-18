@@ -37,7 +37,7 @@ export default function BirthdayPage() {
       </div>
 
       {/* Gallery */}
-      <GalleryGrid />
+      {/* <GalleryGrid /> */}
     </main>
   );
 }

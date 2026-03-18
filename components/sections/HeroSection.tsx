@@ -68,7 +68,7 @@ export function HeroSection() {
           }}
         >
           <button
-            onClick={() => router.push('/cuteness-meter')}
+            onClick={() => router.push('/gallery')}
             className="relative overflow-hidden font-body font-semibold text-white px-10 py-4 rounded-full text-lg shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl active:scale-95"
             style={{
               background: 'linear-gradient(135deg, #E91E63, #FF8A65, #E91E63)',
