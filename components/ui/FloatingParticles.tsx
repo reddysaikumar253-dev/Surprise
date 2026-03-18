@@ -38,12 +38,12 @@ export function FloatingParticles({ count = 20 }: { count?: number }) {
             className="absolute animate-floatUp select-none"
             style={{
               left: `${p.left}%`,
-              bottom: '-40px', // 👈 start below screen
+              bottom: '-40px',
               fontSize: `${p.size}px`,
               animationDuration: `${p.duration}s`,
               animationDelay: `${p.delay}s`,
-              '--drift': `${p.drift}px`, // 👈 custom variable
               willChange: 'transform, opacity',
+              ['--drift' as any]: `${p.drift}px`,
             } as React.CSSProperties}
           >
             {p.emoji}
