@@ -33,9 +33,3 @@ next-env.d.ts
 .DS_Store
 Thumbs.db
 
-# photos (personal)
-/public/photos/*.jpg
-/public/photos/*.jpeg
-/public/photos/*.png
-/public/photos/*.webp
-!/public/photos/.gitkeep
